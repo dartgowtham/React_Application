@@ -1,0 +1,68 @@
+#home{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    width: 100%;
+    background-image: url("../../Images/Background_Noise.png");
+}
+.home_left{
+    width:700px;
+}
+.home_left .top .title{    
+    font-size: 72px;
+    font-weight: 600;
+    line-height: 79.3px;
+}
+.content{
+    color:#666A6F;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.home_left .bottom{
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.home_right{
+    display: flex;
+    flex-direction: column;
+ 
+}
+ .home_right .top{
+    display: flex;
+    flex-direction: row;
+ }
+.group {
+    position: relative;
+    margin-right: 20px;
+    z-index: 0;  
+}
+
+.image2 {
+    position: absolute;
+    left: 100px;
+    top: -25px;
+    z-index: 2; 
+}
+
+.mid .btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 222px;
+    height: 58px;
+    border: 2px solid transparent;
+    background-image: linear-gradient(to right, #007bff, #6610f2);
+    border-radius: 70px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+ 

@@ -1,0 +1,49 @@
+.client{
+    display: flex;
+    flex-direction: column;
+   align-self: center;
+    
+}
+.client .top{
+    display: flex;
+    justify-content: start;
+    margin-left: 70px;
+    align-items: center;
+}
+.client .top .left h1{
+    width: 684px;
+    font-size: 48px;
+    line-height: 62.4px;
+    font-weight: 600;
+}
+.client .top .right ul{
+    list-style-type: none;    
+}
+.client .top .right ul li{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.client .bottom {
+    width: 1331px;
+    display: flex;
+    align-self: center;
+    text-align:justify;
+}
+.client .bottom p{
+    font-size: 16px;
+    line-height: 28.8px;
+}
+
+.card{
+    width: 413px;
+    height:366px;
+    padding:10px;
+    background-color: black;
+    border-radius: 30px;
+    color:white; 
+}
+
+
+
+
