@@ -1,0 +1,47 @@
+.contactus{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: linear-gradient(#88CAFD,#B7FCF0);
+    padding-bottom: 20px;
+}
+.contactus .left{
+    display: flex;
+    flex-direction: column;
+}
+.contactus .left h2{
+    width: 531px;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 62.4px;
+}
+.contactus .left p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #666A6F;
+    margin-left: 20px;
+}
+.contactus .left .grp1{
+    display: flex;
+}
+.contactus .left .grp1 .btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 222px;
+    height: 58px;
+    border: 2px solid transparent;
+    background-color:white;
+    border-radius: 70px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.contactus .right h4{
+    width: 448px;
+    font-size: 24px;
+    border-bottom: solid;
+    padding-bottom: 10px;    
+}

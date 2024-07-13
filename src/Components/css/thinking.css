@@ -1,0 +1,65 @@
+.tk{
+    background-image: url('../../Images/Background_Noise.png');
+   
+    width: 100%;
+}
+.thinking{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.thinking .left h1{
+    width: 684px;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 62.4px;
+}
+.thinking .right{
+    width: 600px;  
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28.8px;
+}
+
+/* Cards */
+.lists {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap:24px;
+}
+ .lists .card{
+width: 410.67px;
+height: 260px;
+background: #FFFFFF;
+border-radius: 20px;
+display: flex;
+flex-direction: column;
+justify-content:space-around;
+align-items: baseline;
+margin-top: 24px;
+padding: 10px;
+}
+.lists .card h4{
+    width: 340px;
+    color: black;
+    font-size: 24px;
+    font-weight: 600;
+}
+.lists .card p{
+    width: 70%;
+    color: #666A6F;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28.8px;
+}
+
+.lists .card:hover p{
+ width: 100%;
+  text-align: center;
+}
+
+
+ 
+ 

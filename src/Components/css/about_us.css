@@ -31,7 +31,7 @@
 
 .about_us .bottom{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-self: center;
     width: 1400px;
-  
 }

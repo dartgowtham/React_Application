@@ -1,0 +1,88 @@
+.testimonial-text{
+    width: 1200px;
+    margin-left: 200px;
+    font-size: 32px;
+    line-height: 35.2px;
+    font-weight: 600;
+    text-align: center;
+}
+.author-info{
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+    align-items: center;
+}
+.names{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    line-height: 0%;
+}
+.author-name{
+    font-size: 18px;
+    margin-right: 76px;
+}
+.author-role{
+    font-size: 16px;
+}
+.trig{
+    display: flex;
+    flex-direction: row;
+}
+
+.carousel-container {
+    position: relative; /* Necessary for absolute positioning of arrows */
+  }
+  
+  .custom-next-arrow,
+  .custom-prev-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    z-index: 1; /* Ensure arrows are above carousel content */
+  }
+  
+  .custom-next-arrow {
+    right: 90px;
+    top:220px;
+  }
+  
+  .custom-prev-arrow {
+    left: 1208px;
+    top:220px;
+
+  }
+  
+  .carousel-indicators {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 20px; /* Adjust as needed */
+  }
+  
+  .indicator {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ccc;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .indicator.active {
+    background-color: #333;
+  }
+  
+  .carousel-status {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #333;
+    color: #9b1b1b;
+    font-size: 18px;
+    padding: 10px;
+ 
+  }

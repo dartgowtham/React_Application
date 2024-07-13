@@ -24,10 +24,10 @@ export default function Home() {
             <div className='mid'>
             <button className='btn'>Get Started <img src={arrow} alt='d'/></button>
             </div>
-
+<br/>
             <div className='bottom'>
             <div className='title'>
-            <p style={{width:"200px"}}>Trusted by the world's biggest brands</p>
+            <p style={{width:"200px",color:'black',fontWeight:500}}>Trusted by the world's biggest brands</p>
             </div>
             <div className='company_logo1'>
                  <img src={logo1} alt='company_logo'/> 
