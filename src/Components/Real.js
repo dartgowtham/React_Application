@@ -25,19 +25,19 @@ export default function Real() {
 
         </div>
         <div className='img_group'>
-            <div style={{position: "relative",overflow: "hidden"}} className='ho'>
-                <img src={img1} alt='img1' style={{borderRadius:"23px"}}/>
+        <div className='img_wrapper'>
+                <img src={img1} alt='img1' />
                 <div class="overlay">
                     <p>See Details</p>
                 </div>
                 </div>
-                <div style={{position: "relative",overflow: "hidden"}} className='ho'>
+                <div className='img_wrapper'>
                 <img src={img2} alt='img2'/>
                 <div class="overlay">
                     <p>See Details</p>
                 </div>
                 </div>
-                <div style={{position: "relative",overflow: "hidden"}} className='ho'>
+                <div className='img_wrapper'>
                 <img className="ims" src={img3} alt='img3'/>
                 <div class="overlay">
                     <p>See Details</p>

@@ -9,6 +9,7 @@
 }
 .home_left{
     width:700px;
+    
 }
 .home_left .top .title{    
     font-size: 72px;
@@ -51,18 +52,22 @@
 }
 
 .mid .btn{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    width: 222px;
-    height: 58px;
-    border: 2px solid transparent;
-    background-image: linear-gradient(to right, #007bff, #6610f2);
-    border-radius: 70px;
-    padding: 10px 20px;
-    font-size: 16px;
-    font-weight: bold;
-    color: white;
-    cursor: pointer;
+    width: Auto 222px;
+            height: 100%;
+            padding: 16px 32px;
+            background: linear-gradient(97deg, #0076D0 35%, #0EFED4 100%);
+            border-radius: 70px;
+            border: 1px solid #0076D0;
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            gap: 42px;
 }
- 
+.mid .btn-text{
+    color: white;
+            font-size: 16px;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            font-weight: 700;
+            line-height: 28.80px;
+            word-wrap: break-word;
+}

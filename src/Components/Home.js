@@ -18,11 +18,14 @@ export default function Home() {
         <div className='home_left'>
             <div className='top'>
             <h1 className='title'>Expert Consulting & Innovative Solution</h1>
-            <p className='content'>Gaskon is your trusted Partner for Business Excellence. With a proven track record and a team of seasoned consultants spanning diverse industries, we deliver tailored solutions dedicated to propelling your success. Explore the power of stratigic insight, data-driven decision-making, and personalized solutions. Your journey to business elevation begins here at Gaskon Consulting</p>
+            <p className='content'>Gaskon is your trusted Partner for Business Excellence. With a proven track record and a team of seasoned consultants spanning diverse industries, we deliver tailored solutions dedicated to propelling your success. Explore the power of stratigic insight, data-driven decision-making, and personalized solutions. Your journey to business elevation begins here at Gaskon Consulting.</p>
             </div>
 
             <div className='mid'>
-            <button className='btn'>Get Started <img src={arrow} alt='d'/></button>
+            <button className='btn'>
+              <div className ='btn-text'>Get Started </div><img src={arrow} alt='d'/>
+            </button>
+            
             </div>
 <br/>
             <div className='bottom'>
