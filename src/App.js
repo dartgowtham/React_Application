@@ -7,6 +7,8 @@ import Feedback from "./Components/Feedback"
 import Contact_us from "./Components/Contact_us";
 import Thinking from "./Components/Thinking";
 import Real from "./Components/Real";
+import Approach from "./Components/Approach";
+import Fund from "./Components/Fund";
  
 
 function App() {
@@ -14,13 +16,16 @@ function App() {
     <div className="App">
       <Navbar/>
       <Home/>
-      <About_us/>
+      <Approach/>
+      <Fund/>
+      <Feedback/>
+      <Footer/>
+      {/* <About_us/>
       <Client/>
       <Thinking/>
       <Real/>
-      <Contact_us/>
-    <Feedback/>
-      <Footer/>
+      <Contact_us/> */}
+
     </div>
   );
 }

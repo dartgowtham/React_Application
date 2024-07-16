@@ -1,64 +1,37 @@
 import React from 'react'
 import './css/Home.css'
-import logo1 from '../Images/company_logo1.png';
-import logo2 from '../Images/company_logo2.png';
-import logo3 from '../Images/company_logo3.png';
-
-import arrow from '../Images/arrow-right.png'
-
-import city from '../Images/home_half.png';
-import group from '../Images/Group.png';
-import count from '../Images/count.png'
-import img3 from '../Images/image3.png'
-
-
-export default function Home() {
-  return (
-    <div id="home">
-        <div className='home_left'>
-            <div className='top'>
-            <h1 className='title'>Expert Consulting & Innovative Solution</h1>
-            <p className='content'>Gaskon is your trusted Partner for Business Excellence. With a proven track record and a team of seasoned consultants spanning diverse industries, we deliver tailored solutions dedicated to propelling your success. Explore the power of stratigic insight, data-driven decision-making, and personalized solutions. Your journey to business elevation begins here at Gaskon Consulting.</p>
-            </div>
-
-            <div className='mid'>
-            <button className='btn'>
-              <div className ='btn-text'>Get Started </div><img src={arrow} alt='d'/>
-            </button>
-            
-            </div>
-<br/>
-            <div className='bottom'>
-            <div className='title'>
-            <p style={{width:"200px",color:'black',fontWeight:500}}>Trusted by the world's biggest brands</p>
-            </div>
-            <div className='company_logo1'>
-                 <img src={logo1} alt='company_logo'/> 
-            </div>
-            <div className='company_logo1'>
-                 <img src={logo2} alt='company_logo'/> 
-            </div>
-            <div className='company_logo1'>
-                 <img src={logo3} alt='company_logo'/> 
-            </div>
-            </div>
+import Home_img from '../Images/home.png'
+import img1 from '../Images/Company/img1.png'
+import img2 from '../Images/Company/img2.png'
+import img3 from '../Images/Company/img3.png'
+import img4 from '../Images/Company/img4.png'
+import img5 from '../Images/Company/img5.png'
+ 
+ export default function Home() {
+   return (
+    <>
+    <div id='home'>
+     <div className='home'> 
+      <h1 className='head'>Navigating Vast Business Horizons and Unlocking Limitless Opportunities with Gaskon Consulting's Strategic Brilliance and Innovative Solutions</h1>
+     <img src={Home_img} alt='d' className='home_img'/>
+     <p className='content'>Discover a realm of unparalleled business potential on our Business Opportunities. At Gaskon Consulting, we redefine success by offering strategic brilliance and innovative solutions. Navigate vast horizons, seize limitless opportunities, and transform your business future with us. Explore the possibilities and chart your course to prosperity.</p>
+     </div>
+     </div>
+     <div className='company'>
+        <h1 className='head'>Companies we Work with</h1>
+        <div className='group'>
+            <img src={img1} alt='f'/>
+            <img src={img2} alt='f'/>
+            <img src={img3} alt='f'/>
+            <img src={img4} alt='f'/>
+            <img src={img5} alt='f'/>
         </div>
-        <div className='home_right'>
-            <div className='top'>
-            <div className='group'>
-            <img src={city} alt="Image 1" width="308px" height="281"/>
-            <img src={group} alt='image 2' className='image2'/>
-            </div>
-            <div>
-            <img src={count} alt='image 3'/>
-            </div>
-            </div>
-            <br/>
-            <div>
-            <img src={img3} alt='image 4'/>
-            </div>
-        </div>
+     </div>
+     <br/>
+     <br/>
+     </>
+     
 
-    </div>
-  )
-}
+   )
+ }
+ 

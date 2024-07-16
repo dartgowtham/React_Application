@@ -1,0 +1,27 @@
+.approach{
+    display: flex;
+    justify-content: space-evenly;
+    background-image: url('../../Images/home_bg.png');
+    padding: 10px;
+}
+.left{
+    width: 500px;
+}
+.card{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    width:500px;
+}
+.card img{
+    width: 100px;
+    height: 100px;
+}
+.card h3{
+    font-size: 24px;
+
+}
+.card p{
+    font-size: 18px;
+}

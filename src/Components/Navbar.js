@@ -23,9 +23,9 @@ export default function Navbar() {
                 <li><a href='#'>Contact Us</a></li>
             </ul>
         </div>
+        
         <div></div>
-        <div></div>
-        <div></div>
+        
         <div></div>
         <div className='btn1'>
             <button className='get_btn'>Get Started</button>

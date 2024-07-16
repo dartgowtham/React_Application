@@ -1,0 +1,67 @@
+.amont{
+    display: flex;
+   justify-content: center;
+   gap: 100px;
+
+}
+.div_amont{
+    display: flex;       
+    flex-direction: column;
+    width: 400px;
+    justify-content: center;
+    align-items: center;    
+    margin-bottom: 0;
+}
+.amont .div_amont h1{
+   
+    font-size: 72px;
+    margin-bottom: 0;
+    
+
+}
+
+.amont .div_amont h1 .last{
+    color: #0076D0;
+}
+.amont  .div_amont h1 .curency{
+    color: #dce0e2;
+    font-size: 25px;
+}
+.amont .div_amont h4{
+    color: #dce0e2;
+    font-size: 18px;
+    margin-top: 0;
+
+}
+
+.cards{
+    display: flex;
+    width: 400px;
+    flex-direction: column;
+    margin-top: 0%;
+}
+.cards .number{
+    font-size: 32px;
+    color: #9B9B9C;
+    background-color: #F7F7F7;
+    width: 35px;
+    height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    
+}
+.cards .title h2{
+    color:#0076D0;
+    font-size: 24px;
+    margin-left: 50px;
+}
+.cards .dese p{
+    font-size: 18px;
+    margin-left: 50px;
+
+}
+.line{
+    width: 1317px;
+    height: 289px;
+ 
+}
