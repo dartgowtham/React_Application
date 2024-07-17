@@ -1,6 +1,6 @@
 .approach{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     background-image: url('../../Images/home_bg.png');
     padding: 10px;
 }

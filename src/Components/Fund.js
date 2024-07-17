@@ -1,10 +1,10 @@
 import React from 'react'
 import './css/fund.css'
-import line from '../Images/line.png'
+import line from '../Images/lines.png'
 export default function Fund() {
   return (
     <div className='fund'>
-        <h1 style={{textAlign:"center",fontSize:"46px"}}>Funding Raised</h1>
+        <h1 style={{textAlign:"center",fontSize:"46px",marginBottom:0}}>Funding Raised</h1>
         <div className='amont'>
             <div className='div_amont'>
             <h1>200<span className='last'>K</span><span className='curency' >USD</span></h1>
@@ -19,7 +19,17 @@ export default function Fund() {
             <h4>August, 2023</h4>
             </div>
         </div>
-        <img src={line} alt="df" className='line'/>
+        <div class="horizontal-line">
+        <div class="icon-container">
+ 
+  <div class="polygon-icon"></div>
+</div>
+<div class="icon-container">
+ 
+  <div class="polygon-icon"></div>
+</div>
+        </div>
+        <br/>
 
         <div className='lists'>
             <div className='cards'>

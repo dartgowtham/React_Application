@@ -9,8 +9,10 @@
     flex-direction: column;
     width: 400px;
     justify-content: center;
-    align-items: center;    
+    align-items: flex-start;    
+    margin-top: 0;
     margin-bottom: 0;
+    margin-left: 90px;
 }
 .amont .div_amont h1{
    
@@ -60,8 +62,30 @@
     margin-left: 50px;
 
 }
-.line{
-    width: 1317px;
-    height: 289px;
  
+.line{
+    margin-left: 60px;
 }
+  
+.horizontal-line {
+    display: flex;
+    border: 3px solid #F7F7F7;
+    height: 5px;
+    background-color: #F7F7F7;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .icon-container {
+    display: flex;
+   
+  }
+  
+  .polygon-icon {
+    width: 20px; /* Adjust width as needed */
+    height: 20px; /* Adjust height as needed */
+    /* Example styling for a polygon icon */
+    background-color: #3498db; /* Example background color */
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%); /* Example polygon shape */
+    transform: rotate(90deg);
+  }

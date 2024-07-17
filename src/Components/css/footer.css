@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-image: url('../../Images/bg2.png');
 }
 .footer .top{
     width: 1280px;
@@ -32,7 +33,7 @@
 }
 .footer .bottom{
     display: flex;
-    gap:180px;  
+    gap:80px
 }
 .social{
     display: flex;
@@ -45,4 +46,4 @@
     align-items: center;
     gap:5px;
     margin-top: 14px;
-}
+}   
