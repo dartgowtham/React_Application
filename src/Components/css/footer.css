@@ -33,7 +33,7 @@
 }
 .footer .bottom{
     display: flex;
-    gap:80px
+    gap:80px;
 }
 .social{
     display: flex;
@@ -47,3 +47,46 @@
     gap:5px;
     margin-top: 14px;
 }   
+.fp{
+    width: 330px;
+}
+
+@media (max-width: 768px) {
+    .footer{
+        background-size: cover;
+       
+    }
+    .footer .top{
+        width: 300px;
+        flex-direction: column;
+        justify-content: center;
+        background-position: 200px;
+        font-size: 14px;
+    }
+    .fp{
+       width: 270px;
+       font-size: 15px;
+       margin-top: 0;
+    }
+    .footer .bottom{
+        width: 310px;
+        flex-direction:column;
+        gap:20px;
+    }
+    .call .btn{
+        font-size: 14px;
+    }
+    .mid{
+        font-size: 14px;
+    }
+    .contact{
+        font-size: 14px;
+    }
+    .bottom .left  .imsl{
+      background-color: aliceblue;
+    }  
+    .left .social{
+       width: 200px;
+       background-color: aliceblue;
+    }
+}

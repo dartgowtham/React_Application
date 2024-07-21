@@ -10,18 +10,17 @@ import Real from "./Components/Real";
 import Approach from "./Components/Approach";
 import Fund from "./Components/Fund";
 import "./App.css"
+import Navbars from "./Components/Navbar";
  
 
 function App() {
   return (
     <div className="App">
-      <Navbar/>
-      <Home/>
-      <Approach/>
-      <Fund/>
-     
-      <Feedback/>
-      <Footer/>
+      <Navbars/>
+       <Home/>
+      <Approach/> 
+       {/* <Fund/> */}
+      <Footer/> 
     
       {/* <About_us/>
       <Client/>

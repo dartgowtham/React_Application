@@ -12,7 +12,7 @@ export default function Approach() {
         <div className='left'>
             <h1>Our Approach</h1>
             <p>Unearth the impact of Strategic Brilliance, foster Innovation, and achieve Optimized Success with Gaskon as your trusted Business Consulting Partner.</p>
-            <img src={img1} alt='f'/>
+            <img src={img1} alt='f' className='imgs'/>
         </div>
 
         <div className='right'>

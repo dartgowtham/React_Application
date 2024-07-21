@@ -1,7 +1,6 @@
 #home{
- 
+    
     background-image: url("../../Images/home_bg.png");
-    background-repeat: no-repeat;
     
 }
 #home .home{
@@ -41,9 +40,36 @@
 .company .group{
     display: flex;
     justify-content:center;
+    flex-wrap: wrap;
     gap:40px;
 }
 .company .group img{
     width: 150px;
 }
  
+
+@media (max-width: 768px) {
+    .home .head {
+        width: auto;
+        font-size: 30px;
+        line-height: 1.2;
+    }
+    .content {
+        max-width: fit-content;
+        padding: 10px;
+        font-size: 14px;
+        line-height: 1.6;
+    }
+    .home_img {
+      max-width: 270px;
+      max-height: 200px;
+    }
+    .company .head {
+        font-size: 36px;
+    }
+    .company .group img {
+        width: 80px;
+       padding: 5px;
+
+    }
+}

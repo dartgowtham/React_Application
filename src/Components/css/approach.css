@@ -2,10 +2,14 @@
     display: flex;
     justify-content: space-around;
     background-image: url('../../Images/home_bg.png');
-    padding: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 .left{
     width: 500px;
+}
+.left .imgs{
+    width: fit-content;
 }
 .card{
     display: flex;
@@ -24,4 +28,34 @@
 }
 .card p{
     font-size: 18px;
+}
+
+@media (max-width: 768px) {
+    .approach{
+        flex-direction: column;
+    }
+    .left {
+        width:300px ;
+        padding: 10px;
+    }
+    .left .imgs{
+        width: 300px;
+    }
+    .card img{
+        width: 70px;
+        height: 70px;
+        padding: 10px;
+    }
+    .card{
+         width: 310px;
+    }
+    .card h3{
+        font-size: 16px;
+        margin-bottom: 0;
+    
+    }
+    .card p{
+        font-size: 14px;
+        margin-top: 0;
+    }
 }

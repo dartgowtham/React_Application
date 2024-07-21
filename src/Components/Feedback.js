@@ -37,15 +37,14 @@ const TestimonialSlider = () => {
 
   return (
     <div className="testimonial-slider">
-       <br/>
-       <br/>
+        
       <div className="testimonial">
         <h3 className="quote">{testimonials[currentSlide].quote}</h3>
         </div>
-        <div className='bottom'>
+      <div className='bottom'>
         <div className='author-details'>
-          <div>
-          <img src={ceo} alt='f' style={{width:"50px",height:"50px"}}/>
+          <div className='aui'>
+          <img src={ceo} alt='f' className='auimg'/>
           </div>
         <div className='text-box'>
         <p className=".names"> {testimonials[currentSlide].author}</p>
@@ -57,7 +56,13 @@ const TestimonialSlider = () => {
         <span className="slide-count">{currentSlide + 1} / <span className='lenths'>{testimonials.length}</span></span>
         <button onClick={nextSlide}>&#8250;</button>
       </div>
+      
       </div>
+      {/* <div className="resnavigation">
+        <button onClick={prevSlide}>&#8249;</button>
+        <span className="slide-count">{currentSlide + 1} / <span className='lenths'>{testimonials.length}</span></span>
+        <button onClick={nextSlide}>&#8250;</button>
+      </div> */}
       <br/>
       <br/>
       </div>
